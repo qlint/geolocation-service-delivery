@@ -1,0 +1,25 @@
+{
+  "name": "uber",
+  "version": "1.0.0",
+  "description": "uber simulation using node and leaflet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://akshay11@bitbucket.org/cronj-dev/uber.git"
+  },
+  "keywords": [
+    "uber",
+    "and",
+    "leaflet"
+  ],
+  "author": "cronj-dev",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/cronj-dev/uber#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
