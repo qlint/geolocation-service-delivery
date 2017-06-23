@@ -14,10 +14,10 @@ This application is basically a prototype of real-time taxi aggregators and serv
 Run node index.js to start the development server and open up the respective url(Customer,driver,faker or serviceman) like localhost:8085/customer in your browser.
 
 ## Getting started ##
-Demos:[Customer](http://localhost:8085/customer),
-[Driver](http://localhost:8085/driver),
-[Serviceman](http://localhost:8085/serviceman),
-[Faker](http://localhost:8085/faker),
+Demos:Customer - http://localhost:8085/customer,
+Driver - http://localhost:8085/driver,
+Serviceman - http://localhost:8085/serviceman,
+Faker - http://localhost:8085/faker,
 
 ## Testing ##
 Tired moving around with your driver application to different location??
