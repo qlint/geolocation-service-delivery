@@ -1,0 +1,67 @@
+<!-- 
+#Title:     Example Customer
+ -->
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example-Customer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS -->
+     <!-- leaflet CSS file -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+   <!--  CSS for Leaflet Routing -->
+    <link rel="stylesheet" type="text/css" href="/css/leaflet-routing-machine.css" />
+  <!--   CSS for Setview button -->
+    <link rel="stylesheet" type="text/css" href="/css/easy-button.css" />
+   <!--  Including the font-awesome CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<style>
+html,
+body,
+#map {
+    margin: 0;    /*Setting margin,height and width of Map-container which holds the map */
+    width: 100%;
+    height: 98%;
+}
+
+#button1,
+#button2 {
+    width: 50%; 
+    height: 6%;
+    float: right;   /*Setting float as right to align button side by side*/
+}
+</style>
+
+<body>
+    <div id="map"></div>
+      <!--JS -->
+      <!-- Loading the JS in body so that it doesn't block the loading of external CSS, images, and other assets while it’s downloading JavaScript. -->
+     <!--  Load Jquery and underscore for traversing driver's list -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+   <!--  Loading leaflet JS file -->
+    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <!--   JS for locate button -->
+    <script type="text/javascript" src="/js/easy-button.js"></script>
+   <!--  Loading configuration file  -->
+    <script type="text/javascript" src="/config/config.js"></script>
+    <!--  JS for Leaflet Routing -->
+    <script type="text/javascript" src="/js/leaflet-routing-machine.js"></script>
+   <!--  JS for rotating the marker icon -->
+    <script type="text/javascript" src="/js/Marker.Rotate.js"></script>
+    <!-- JS for moving the marker icon -->
+    <script type="text/javascript" src="/js/MovingMarker.js"></script>
+    <!-- JS for socket connection -->
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <!-- Corresponding JS file of customer -->
+    <script type="text/javascript" src="/js/customer.js"></script>
+
+    <button id="button1" onclick="nearby(0)" style="width:inline" type="button" autofocus><b>Book Ride</b></button>
+    <button id="button2" onclick="nearby(1)" style="width:inline" type="button" autofocus><b>Book Service</b></button>
+</body>
+
+</html>
