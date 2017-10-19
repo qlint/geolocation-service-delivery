@@ -1,6 +1,6 @@
 # Taxi Hailing Simulation #
 
-This application is basically a prototype of real-time taxi aggregators and service providers like Uber built using Node.js, Leaflet and Socket.io. Along with cab service we have also included booking daily needs Service facility such as food or grocery delivery. Hence you can book both service and cab on the go.This project was developed with leaflet version 0.7.7, express version 4.13.4 and socket.io version 1.4.5.
+This application is basically a prototype of real-time taxi aggregators and service providers like Uber built using Node.js, Leaflet and Socket.io. Along with cab service we have also included booking daily needs Service facility such as food or grocery delivery. Hence you can book both service and cab on the go.
 
 ## Prerequisites ##
 1. Git
