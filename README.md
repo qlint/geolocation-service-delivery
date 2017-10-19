@@ -11,7 +11,7 @@ This application is basically a prototype of real-time taxi aggregators and serv
 
 ## Build & development ##
 
-Run node index.js to start the development server and open up the respective url(Customer,driver,faker or serviceman) like localhost:8085/customer in your browser.
+Run node index.js in your terminal to start the development server and open up the respective url(Customer,driver,faker or serviceman) like localhost:8085/customer in your browser.
 
 ## Getting started ##
 Demos:Customer - http://localhost:8085/customer,
@@ -22,8 +22,3 @@ Faker - http://localhost:8085/faker,
 ## Testing ##
 Tired moving around with your driver application to different location??
 Rather than physically moving to different location to see its effect, you can use faker application to fake the driver location and see its effect in customer app.Just click anywhere on the map and the car will move to that location both in faker and customer application.
-
-## Contributions ##
-Leaflet, Node.js, Express,Socket.io,Google for MapTiles and Uber for their cool driver icon.
-
-**Thanks to:**[CronJ-Blog](http://www.cronj.com/blog/uber-for-x-prototype/) for the code.
